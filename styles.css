@@ -54,7 +54,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 7vh;
+    font-size: 5vh;
     color: var(--foreground-color);
 }
 
@@ -69,4 +69,15 @@ body {
 .score > :first-child {
     text-align: right;
     border-right: 0.5vh solid var(--foreground-color);
+}
+
+.player-score-1 {
+    margin-right: 34px;
+}
+
+.computer-score-1 {
+    margin-left: 80px;
+}
+
+.top-container {
 }
